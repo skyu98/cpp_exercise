@@ -1,0 +1,5 @@
+add_test( TEST_Employee.getDeptName /Users/frank/Documents/cpp_exercise/manage_system/obj/test_my_class [==[--gtest_filter=TEST_Employee.getDeptName]==] --gtest_also_run_disabled_tests)
+set_tests_properties( TEST_Employee.getDeptName PROPERTIES WORKING_DIRECTORY /Users/frank/Documents/cpp_exercise/manage_system/build/test)
+add_test( TEST_Manager.getDeptName /Users/frank/Documents/cpp_exercise/manage_system/obj/test_my_class [==[--gtest_filter=TEST_Manager.getDeptName]==] --gtest_also_run_disabled_tests)
+set_tests_properties( TEST_Manager.getDeptName PROPERTIES WORKING_DIRECTORY /Users/frank/Documents/cpp_exercise/manage_system/build/test)
+set( test_my_class_TESTS TEST_Employee.getDeptName TEST_Manager.getDeptName)

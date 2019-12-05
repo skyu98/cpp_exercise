@@ -1,0 +1,5 @@
+if(EXISTS "/Users/frank/Documents/cpp_exercise/manage_system/build/test/test_my_class[1]_tests.cmake")
+  include("/Users/frank/Documents/cpp_exercise/manage_system/build/test/test_my_class[1]_tests.cmake")
+else()
+  add_test(test_my_class_NOT_BUILT test_my_class_NOT_BUILT)
+endif()
