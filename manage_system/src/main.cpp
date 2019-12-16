@@ -34,11 +34,21 @@ int main() {
                 wm.ExitSystem();
                 break;
             case 1:  // add
+                wm.Add_Emp();
                 break;
             case 2:  // show
+                wm.Show_Emp();
                 break;
             case 3:  // delete
+            {  // TEST code
+                int ret = wm.IsExist(1);
+                if(ret != -1){
+                    cout << "Employee exists" << endl;
+                }else{
+                    cout << "Employee dosen't exist" << endl;
+                }
                 break;
+            }
             case 4:  // edit
                 break;
             case 5:  // find
