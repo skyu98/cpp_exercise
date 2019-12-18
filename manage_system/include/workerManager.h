@@ -30,6 +30,14 @@ public:
     void Show_Emp();
     // 3.Del
     void Del_Emp();
+    // 4.modify
+    void Mod_Emp();
+    // 5.find
+    void Find_Emp();
+    // 6.sort
+    void Sort_Emp();
+    // 7.clear
+    void Clear_File();
     //判断职工是否存在
     //如果存在返回职工所在数组的位置,不存在则返回-1
     int IsExist(int id);

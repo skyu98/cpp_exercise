@@ -40,22 +40,28 @@ int main() {
                 wm.Show_Emp();
                 break;
             case 3:  // delete
-            {  // TEST code
-                int ret = wm.IsExist(1);
-                if(ret != -1){
-                    cout << "Employee exists" << endl;
-                }else{
-                    cout << "Employee dosen't exist" << endl;
-                }
+//            {  // TEST code
+////                int ret = wm.IsExist(5);
+////                if(ret != -1){
+////                    cout << "Employee exists" << endl;
+////                }else{
+////                    cout << "Employee dosen't exist" << endl;
+////                }
+////                break;
+////            }
+                wm.Del_Emp();
                 break;
-            }
-            case 4:  // edit
+            case 4:  // modify
+                wm.Mod_Emp();
                 break;
             case 5:  // find
+                wm.Find_Emp();
                 break;
             case 6:  // sort
+                wm.Sort_Emp();
                 break;
             case 7:  // clear
+                wm.Clear_File();
                 break;
             default:
                 system("clear");
