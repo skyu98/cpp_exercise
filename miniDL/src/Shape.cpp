@@ -10,7 +10,7 @@ namespace MiniDL{
 
     }
 
-    Shape:~Shape(){
+    Shape::~Shape(){
 
     }
 
